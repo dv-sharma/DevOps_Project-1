@@ -1,2 +1,2 @@
 # DevOps-Projects
-Showcase of my DevOps learning &amp; Demo projects 
+Project explanation in -demo-helloworldapp (1).pdf file
