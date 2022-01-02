@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: firstdep
+  labels:
+    name: firstdep
+spec:
+    replicas: 2
+    selector:
+        matchLabels:      
+           app: myapp
+    template:
+       metadata:
+         name: mypod      
+         labels: 
+           app: myapp
+         
+       spec: 
+         containers:
+           - name: container1
+             image: 05061120/helloworlddv:hello
+             ports:
+             - containerPort: 8080
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
