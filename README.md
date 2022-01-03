@@ -4,6 +4,8 @@
 **DEMO: CREATING JAVA APP,
 CONTAINERIZING WITH DOCKER & DEPLOYING ON KUBERNETES CLUSTER.
 **
+
+
 **STEP 1:** CREATE A SPRINGBOOT JAVA MAVEN PROJECT USING SPRING INITIALIZER
 ⦁	Add the required dependencies e.g., SPRING WEB.
 ⦁	Chose the java version according to the needs. 
@@ -75,7 +77,7 @@ The yaml file which contains all the declarative details for the pod creation , 
 
 
 
-STEP 7: EXPOSING THE DEPLOYMENT TO A SERVICE
+**STEP 7**: EXPOSING THE DEPLOYMENT TO A SERVICE
 The yaml file for the svc looks like this.
  ![image](https://user-images.githubusercontent.com/65087388/147924395-9a12acf5-44b8-4876-8c33-e88dfaedaa58.png)
 
