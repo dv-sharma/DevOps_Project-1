@@ -18,7 +18,7 @@ spec:
        spec: 
          containers:
            - name: container1
-             image: 05061120/helloworlddv:hello
+             image: 05061120/pipelinedemo
              ports:
              - containerPort: 8080
 
