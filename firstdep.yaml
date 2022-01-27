@@ -18,7 +18,7 @@ spec:
        spec: 
          containers:
            - name: container1
-             image: 05061120/pipelinedemo
+             image: 05061120/pipelinedemo:v1
              ports:
              - containerPort: 8080
 
